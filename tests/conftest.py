@@ -8,7 +8,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import pytest
 
-from src.utils import Counter
+from src.counters import Counter
 
 
 @pytest.fixture
